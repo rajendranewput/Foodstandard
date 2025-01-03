@@ -1,0 +1,34 @@
+services:
+  laravel:
+    build:
+      context: ./FSD-Laravel
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./FSD-Laravel:/var/www/html
+    networks:
+      - app-network
+
+  react:
+    build:
+      context: ./food-standard-react
+      dockerfile: Dockerfile
+    container_name: food-standard-react
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./food-standard-react:/usr/src/app
+    networks:
+      - app-network
+  
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+networks:
+  app-network:
+    driver: bridge

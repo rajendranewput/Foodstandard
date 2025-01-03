@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('./icons/cafebonappetit.eot?7m9mvz');
+  src:  url('./icons/cafebonappetit.eot?7m9mvz#iefix') format('embedded-opentype'),
+    url('./icons/cafebonappetit.ttf?7m9mvz') format('truetype'),
+    url('./icons/cafebonappetit.woff?7m9mvz') format('woff'),
+    url('./icons/cafebonappetit.svg?7m9mvz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change icons */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fish:before {
+  content: "\e900";
+}
+.icon-apple:before {
+  content: "\e901";
+}
+.icon-beans:before {
+  content: "\e902";
+}
+.icon-drumstick:before {
+  content: "\e903";
+}
+.icon-egg:before {
+  content: "\e904";
+}
+.icon-hand-globe:before {
+  content: "\e905";
+}
+.icon-milk-glass:before {
+  content: "\e906";
+}
+.icon-milk:before {
+  content: "\e907";
+}
+.icon-oil-bottle:before {
+  content: "\e908";
+}
+.icon-plate:before {
+  content: "\e909";
+}
+.icon-report:before {
+  content: "\e90a";
+}
+.icon-sugar:before {
+  content: "\e90b";
+}
+.icon-vegetables:before {
+  content: "\e90c";
+}
+.icon-wheat:before {
+  content: "\e90d";
+}
+.icon-vital-sign:before {
+  content: "\e90e";
+}
+.icon-grid:before {
+  content: "\e90f";
+}
+.icon-cow:before {
+  content: "\e910";
+}
+.icon-pig:before {
+  content: "\e911";
+}
+.icon-bird:before {
+  content: "\e912";
+}
+.icon-hen:before {
+  content: "\e913";
+}
+.icon-external-link:before {
+  content: "\e914";
+  color: #a7a9ac;
+}
+.icon-download:before {
+  content: "\e915";
+  color: #a7a9ac;
+}

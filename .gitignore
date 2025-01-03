@@ -1,1 +1,3 @@
-/FSD-Laravel
+/FSD-Laravel/vendor
+/food-standard-react/node_modules
+/FSD-Laravel/.env
